@@ -1,0 +1,81 @@
+﻿queda pendiente estas cosas por hacer en el sistema guaicaipuro:
+
+1ero. arreglar las vistas de $_POST en cada uno de los espacios del documento html
+vista_credencial
+vista_cese
+vista_nombra
+
+guardar esos formularios en la tabla de base de datos de cada uno correspondientes, para poder ser vistos en cada una de las tablas de historial 
+
+anexar a cada tabla de historial, la opcion de crear el archivo PDF;
+ eliminar registro del historial, 
+actualizar dicho registro.
+
+terminar de hacer la vista de index.php para la busqueda del estatus de cada persona con la cedula de identidad, mostrar la tabla de cada personal, en otra pagina web, si existe, que aparezca la tabla y toda la información pertinente a dicha persona, sino existe mostrar mensaje (El numero de cedula de identidad ingresado no existe en la base de datos)
+
+tenga los siguientes enlaces
+
+volver
+
+
+///////////////////////
+
+
+encontrar la manera de imprimir los documentos html en formato PDF, PRobar la teoria de que todo lo que se guarda en la base de datos se pueda imprimir...
+
+Elaborado : 
+01:43 a.m. 19/04/2019
+
+
+probare en imprimir la tabla de la base de datos de historial de credenciales en formato PDF, utilizando la libreria MPDF
+ viernes 01:44 a.m. 19/04/2019
+
+//////////////////////////////////////////////
+
+Hoy lunes, 22 de abril del 2019
+
+me encuetro a las 10:27 pm 
+
+ya los formularios de ceses, nombramiento y credencial funcionan, guardan datos en las
+ bases de datos de sus tablas correspondientes, tenemos una base de datos de nombre: ( php_login_database ); para los registros de los usuarios del sistema, y otra base de datos de nombre:   ( test ) , donde se guardan datos de otras tablas, ceses, nombramientos, y credenciales. 
+
+Estoy atrasado en el código, aún no puedo hacer pasar de los llamados de php, 
+de llenado de formulario a pdf, 
+hoy intentare pasar los datos directamente de la base de datos a formato php,
+o sea que los datos guardados en la base de datos php lo imprima en pdf
+todas las tablas, ceses, credenciales, nombramientos, en formato pdf.
+
+que cada uno de los registros cada uno de esos datos, me los imprima en PDF.
+
+estuve modificando cada código, tratando de quitar errores de sintaxis, ya que la lógica 
+esta funcionable, ya se guardan los registros desde la interfaz, de cliente, en el lado de la pagina WEB. en la parte de gestor de base de datos phpmyadmin, eso esta muy bueno logre agregar
+nuevos campos de las tablas, para el nivel educativo.
+
+voy a tratar de grabar nuevos campos, donde se guarden los datos mas especificos en tanto a la fecha , donde pide especificado la fecha en número y el mes en nombre, en selección.
+
+para poder mantener un orden especifico, crear un algoritmo o procedimiento de cuando se coloque la fecha esta muestre primero el dia, luego el mes, seguido del año.
+
+#####################################################
+
+Estamos alunes 5 de mayo del 2019
+hora: 05:41 am
+me encuentro en la fase en la que por fin logro mostrar tabla y registros de la base de datos con la funcion tablaselect del a cual la hago llamar $html y junto a la libreria mpdf logro mostrar dichos documentos de las tablas de la base de datos test cada una de esas tablas ceses, nombramientos y credenciales.
+
+y puedo hacer funcionar el registro de nombramientos y ahora vamos a colocar en los respectivos campos los datos de la persona ceses o destituida, y la persona asignada o nombrada, y en la otra de los credenciales y llevar esto a la universidad, para salir de dicho programa.
+
+pedir mi reconocimiento en que se le use, e instalar en dichas maquinas que tendran eso funcionable. importar las bases de datos y la libreria mpdf que logre revisar toda codigo a codigo, que en esta maquina si funciona.
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+Hoy ya miercoles 8 de mayo del 2019
+Horas 2:04am
+termine de lograr pasar los datos de las tablas en los documentos formales PDF.
+logre hacer que se generan los documentos en forma secuencial, y ahora creare otro metodo para que solo se genere un documento de cada uno de los datos respectivos de cada una de las tabla, nombra, ceses, creden.
+////////////////////////////////////////////////////////////////////////////////////////////
+Hoy jueves 9 de mayo del 2019
+Hora 3:52 a.m
+Termine de colocar todos los campos correctamente de las fechas, credenciales y ceses y nombramientos.
+ahora tocara presentar eso en el despacho del rectorado en la UNELLEZ
+////////////////////////////////////////////////////////////////////////////////////////////////
+Hoy sabado 11 de mayo del 2019
+hora:4:26p.m.
+terminando de colocar mas estilos en los enlaces href de cerrar cesion y demas. probando colocando reset en los formularios y colocando a punto modificar los registros directamente desde html.
