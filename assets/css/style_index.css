@@ -1,0 +1,30 @@
+*{
+	background-color: white;
+}
+form[type="form1"]{
+      background: white;
+      background-attachment: fixed;
+      width: 390px;
+      border: 2px solid #4e4d4d;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      box-shadow: inset 0 0 10px #000;
+      margin: 10px auto;
+    }
+input[name="submit", type="submit"]{
+      padding: 10px;
+      color: #fff; /*Color letras blanca*/
+      background: #FFA500; /*Color boton Fondo azul*/
+      width: 320px;
+      margin: 20px auto;
+      margin-top: 0;
+      border: 0;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+input[name="submit", type="submit"]:hover {
+      background-color: #FFA500; /*Color fondo de boton cambia a un azul mas claro, propiedad hover*/
+     }
+/* Programador: Rolando Picón Nadales - © Todos los derechos reservados 2019 */

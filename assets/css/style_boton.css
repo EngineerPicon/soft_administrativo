@@ -1,0 +1,16 @@
+input[name="submit", type="submit"]{
+      padding: 10px;
+      color: #fff; /*Color letras blanca*/
+      background: #FFA500; /*Color boton Fondo azul*/
+      width: 320px;
+      margin: 20px auto;
+      margin-top: 0;
+      border: 0;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+input[name="submit", type="submit"]:hover {
+      background-color: green; /*Color fondo de boton cambia a un azul mas claro, propiedad hover*/
+     }
+/* Programador: Rolando Picón Nadales - © Todos los derechos reservados 2019 */

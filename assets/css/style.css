@@ -1,0 +1,53 @@
+<style type="text/css">
+	*{
+		margin-top: 0px;
+		padding: 40px;
+		font-family: Arial, Verdana, sans-serif;
+	}
+	.clearfix:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	#title {
+		font-size: 1.3em;
+		text-align: center;
+	}
+	#company {
+		float: right;
+		text-align: right;
+	}
+	#rec {
+		float: right;
+		text-align: right;
+	}
+	#firma {
+		float: center;
+		text-align: center;
+	}
+	#copy {
+		float: left;
+		text-align: left;
+	}
+	p[name="p3"]{
+		text-align: center;
+	}
+	form{
+		text-align:  justify;
+	}
+	p[name="Date"]{
+		text-align: right;
+	}
+	p[name="cc"]{
+		font-size: small;
+	}
+	/*titulo del documento*/
+	h2{
+		text-align: center;
+	}
+/*Codigo que me salta linea a linea los registros de la tabla*/
+	table tr:nth-child(2n-1) td {
+  background: #F5F5F5;
+}
+/* Programador: Rolando Picón Nadales - © Todos los derechos reservados 2019 */
+</style>

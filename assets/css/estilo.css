@@ -1,0 +1,54 @@
+/* fehca domingo 21 de Abril del 2019
+   Hora: 12:44 am
+   Programador: Rolando Picon Nadales
+   
+Código de todo el formulario*/
+.form{
+	position: relative;
+	width: 700px;
+	height: 600px;
+	padding-left: 20px;
+	padding-top: 15px;
+	background-color: pink;
+	border-radius: 20px;
+	margin: auto;
+
+}
+/* Código de los Cuadro de texto de usuario nombre, apellido , y email*/
+input[type=text],[type=email]{
+	width: 450px;
+	height: 35px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+/*Código del cuadro de mensaje*/
+textarea{
+	width: 450px;
+	height:  110px;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+/* Código del botón del formulario */
+input[type=submit]{
+	position: relative;
+	width: 150px;
+	height: 40px;
+	border-radius: 20px;
+	margin-left: 150px;
+	border: 0px;
+	background-color: #32A43E;
+	font: 14px normal normal uppercase helvetica, arial, serif;
+}
+/* Codigo para las letras de parrafos*/
+p{
+	text-shadow: 0 1px 0 #fff;
+	font-size: 24px;
+}
+
+/*Código de los label o etiquetas*/
+label{
+	margin: 11px 20px 0 0;
+	font-size: 16px;
+	color: #b3aba1;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px #fff;
+}
+/* Programador: Rolando Picón Nadales - © Todos los derechos reservados 2019 */

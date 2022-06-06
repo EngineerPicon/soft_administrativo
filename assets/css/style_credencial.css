@@ -1,0 +1,19 @@
+/* Estilos de creden_esp_pdf.php */
+<style type="text/css">
+*{
+	margin-top: 20px;
+	padding: 20px;
+	font-family: Arial, Verdana, sans-serif;
+
+}
+h2{
+	text-align: center;
+}
+p{
+	text-align:  justify;
+}
+div{
+	text-align: center;
+}
+/* Programador: Rolando Picón Nadales - © Todos los derechos reservados 2019 */
+</style>
